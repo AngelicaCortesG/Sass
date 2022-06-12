@@ -9,7 +9,7 @@
   --bs-blue: #0d6efd;
   --bs-indigo: #6610f2;
   --bs-purple: #6f42c1;
-  --bs-pink: #d63384;
+  --bs-pink: #cf649a;
   --bs-red: #dc3545;
   --bs-orange: #fd7e14;
   --bs-yellow: #ffc107;
@@ -36,6 +36,8 @@
   --bs-danger: #dc3545;
   --bs-light: #f8f9fa;
   --bs-dark: #212529;
+  --bs-pink: #cf649a;
+  --bs-white: #fff;
   --bs-primary-rgb: 13, 110, 253;
   --bs-secondary-rgb: 108, 117, 125;
   --bs-success-rgb: 25, 135, 84;
@@ -44,6 +46,8 @@
   --bs-danger-rgb: 220, 53, 69;
   --bs-light-rgb: 248, 249, 250;
   --bs-dark-rgb: 33, 37, 41;
+  --bs-pink-rgb: 207, 100, 154;
+  --bs-white-rgb: 255, 255, 255;
   --bs-white-rgb: 255, 255, 255;
   --bs-black-rgb: 0, 0, 0;
   --bs-body-color-rgb: 33, 37, 41;
@@ -309,7 +313,7 @@ pre code {
 /* line 306, ../../../../../Users/admin/proyectos/2.cssavanzado/4.-sass/desafio1/assets/css/scss/_reboot.scss */
 code {
   font-size: 0.875em;
-  color: #d63384;
+  color: #cf649a;
   word-wrap: break-word;
 }
 
@@ -3750,6 +3754,96 @@ fieldset:disabled .btn {
   border-color: #212529;
 }
 
+/* line 60, ../../../../../Users/admin/proyectos/2.cssavanzado/4.-sass/desafio1/assets/css/scss/_buttons.scss */
+.btn-pink {
+  color: #000;
+  background-color: #cf649a;
+  border-color: #cf649a;
+}
+
+/* line 26, ../../../../../Users/admin/proyectos/2.cssavanzado/4.-sass/desafio1/assets/css/scss/mixins/_buttons.scss */
+.btn-pink:hover {
+  color: #000;
+  background-color: #d67ba9;
+  border-color: #d474a4;
+}
+
+/* line 32, ../../../../../Users/admin/proyectos/2.cssavanzado/4.-sass/desafio1/assets/css/scss/mixins/_buttons.scss */
+.btn-check:focus + .btn-pink, .btn-pink:focus {
+  color: #000;
+  background-color: #d67ba9;
+  border-color: #d474a4;
+  box-shadow: 0 0 0 0.25rem rgba(176, 85, 131, 0.5);
+}
+
+/* line 45, ../../../../../Users/admin/proyectos/2.cssavanzado/4.-sass/desafio1/assets/css/scss/mixins/_buttons.scss */
+.btn-check:checked + .btn-pink,
+.btn-check:active + .btn-pink, .btn-pink:active, .btn-pink.active,
+.show > .btn-pink.dropdown-toggle {
+  color: #000;
+  background-color: #d983ae;
+  border-color: #d474a4;
+}
+
+/* line 56, ../../../../../Users/admin/proyectos/2.cssavanzado/4.-sass/desafio1/assets/css/scss/mixins/_buttons.scss */
+.btn-check:checked + .btn-pink:focus,
+.btn-check:active + .btn-pink:focus, .btn-pink:active:focus, .btn-pink.active:focus,
+.show > .btn-pink.dropdown-toggle:focus {
+  box-shadow: 0 0 0 0.25rem rgba(176, 85, 131, 0.5);
+}
+
+/* line 66, ../../../../../Users/admin/proyectos/2.cssavanzado/4.-sass/desafio1/assets/css/scss/mixins/_buttons.scss */
+.btn-pink:disabled, .btn-pink.disabled {
+  color: #000;
+  background-color: #cf649a;
+  border-color: #cf649a;
+}
+
+/* line 60, ../../../../../Users/admin/proyectos/2.cssavanzado/4.-sass/desafio1/assets/css/scss/_buttons.scss */
+.btn-white {
+  color: #000;
+  background-color: #fff;
+  border-color: #fff;
+}
+
+/* line 26, ../../../../../Users/admin/proyectos/2.cssavanzado/4.-sass/desafio1/assets/css/scss/mixins/_buttons.scss */
+.btn-white:hover {
+  color: #000;
+  background-color: white;
+  border-color: white;
+}
+
+/* line 32, ../../../../../Users/admin/proyectos/2.cssavanzado/4.-sass/desafio1/assets/css/scss/mixins/_buttons.scss */
+.btn-check:focus + .btn-white, .btn-white:focus {
+  color: #000;
+  background-color: white;
+  border-color: white;
+  box-shadow: 0 0 0 0.25rem rgba(217, 217, 217, 0.5);
+}
+
+/* line 45, ../../../../../Users/admin/proyectos/2.cssavanzado/4.-sass/desafio1/assets/css/scss/mixins/_buttons.scss */
+.btn-check:checked + .btn-white,
+.btn-check:active + .btn-white, .btn-white:active, .btn-white.active,
+.show > .btn-white.dropdown-toggle {
+  color: #000;
+  background-color: white;
+  border-color: white;
+}
+
+/* line 56, ../../../../../Users/admin/proyectos/2.cssavanzado/4.-sass/desafio1/assets/css/scss/mixins/_buttons.scss */
+.btn-check:checked + .btn-white:focus,
+.btn-check:active + .btn-white:focus, .btn-white:active:focus, .btn-white.active:focus,
+.show > .btn-white.dropdown-toggle:focus {
+  box-shadow: 0 0 0 0.25rem rgba(217, 217, 217, 0.5);
+}
+
+/* line 66, ../../../../../Users/admin/proyectos/2.cssavanzado/4.-sass/desafio1/assets/css/scss/mixins/_buttons.scss */
+.btn-white:disabled, .btn-white.disabled {
+  color: #000;
+  background-color: #fff;
+  border-color: #fff;
+}
+
 /* line 66, ../../../../../Users/admin/proyectos/2.cssavanzado/4.-sass/desafio1/assets/css/scss/_buttons.scss */
 .btn-outline-primary {
   color: #0d6efd;
@@ -4051,6 +4145,82 @@ fieldset:disabled .btn {
 /* line 118, ../../../../../Users/admin/proyectos/2.cssavanzado/4.-sass/desafio1/assets/css/scss/mixins/_buttons.scss */
 .btn-outline-dark:disabled, .btn-outline-dark.disabled {
   color: #212529;
+  background-color: transparent;
+}
+
+/* line 66, ../../../../../Users/admin/proyectos/2.cssavanzado/4.-sass/desafio1/assets/css/scss/_buttons.scss */
+.btn-outline-pink {
+  color: #cf649a;
+  border-color: #cf649a;
+}
+
+/* line 88, ../../../../../Users/admin/proyectos/2.cssavanzado/4.-sass/desafio1/assets/css/scss/mixins/_buttons.scss */
+.btn-outline-pink:hover {
+  color: #000;
+  background-color: #cf649a;
+  border-color: #cf649a;
+}
+
+/* line 94, ../../../../../Users/admin/proyectos/2.cssavanzado/4.-sass/desafio1/assets/css/scss/mixins/_buttons.scss */
+.btn-check:focus + .btn-outline-pink, .btn-outline-pink:focus {
+  box-shadow: 0 0 0 0.25rem rgba(207, 100, 154, 0.5);
+}
+
+/* line 99, ../../../../../Users/admin/proyectos/2.cssavanzado/4.-sass/desafio1/assets/css/scss/mixins/_buttons.scss */
+.btn-check:checked + .btn-outline-pink,
+.btn-check:active + .btn-outline-pink, .btn-outline-pink:active, .btn-outline-pink.active, .btn-outline-pink.dropdown-toggle.show {
+  color: #000;
+  background-color: #cf649a;
+  border-color: #cf649a;
+}
+
+/* line 108, ../../../../../Users/admin/proyectos/2.cssavanzado/4.-sass/desafio1/assets/css/scss/mixins/_buttons.scss */
+.btn-check:checked + .btn-outline-pink:focus,
+.btn-check:active + .btn-outline-pink:focus, .btn-outline-pink:active:focus, .btn-outline-pink.active:focus, .btn-outline-pink.dropdown-toggle.show:focus {
+  box-shadow: 0 0 0 0.25rem rgba(207, 100, 154, 0.5);
+}
+
+/* line 118, ../../../../../Users/admin/proyectos/2.cssavanzado/4.-sass/desafio1/assets/css/scss/mixins/_buttons.scss */
+.btn-outline-pink:disabled, .btn-outline-pink.disabled {
+  color: #cf649a;
+  background-color: transparent;
+}
+
+/* line 66, ../../../../../Users/admin/proyectos/2.cssavanzado/4.-sass/desafio1/assets/css/scss/_buttons.scss */
+.btn-outline-white {
+  color: #fff;
+  border-color: #fff;
+}
+
+/* line 88, ../../../../../Users/admin/proyectos/2.cssavanzado/4.-sass/desafio1/assets/css/scss/mixins/_buttons.scss */
+.btn-outline-white:hover {
+  color: #000;
+  background-color: #fff;
+  border-color: #fff;
+}
+
+/* line 94, ../../../../../Users/admin/proyectos/2.cssavanzado/4.-sass/desafio1/assets/css/scss/mixins/_buttons.scss */
+.btn-check:focus + .btn-outline-white, .btn-outline-white:focus {
+  box-shadow: 0 0 0 0.25rem rgba(255, 255, 255, 0.5);
+}
+
+/* line 99, ../../../../../Users/admin/proyectos/2.cssavanzado/4.-sass/desafio1/assets/css/scss/mixins/_buttons.scss */
+.btn-check:checked + .btn-outline-white,
+.btn-check:active + .btn-outline-white, .btn-outline-white:active, .btn-outline-white.active, .btn-outline-white.dropdown-toggle.show {
+  color: #000;
+  background-color: #fff;
+  border-color: #fff;
+}
+
+/* line 108, ../../../../../Users/admin/proyectos/2.cssavanzado/4.-sass/desafio1/assets/css/scss/mixins/_buttons.scss */
+.btn-check:checked + .btn-outline-white:focus,
+.btn-check:active + .btn-outline-white:focus, .btn-outline-white:active:focus, .btn-outline-white.active:focus, .btn-outline-white.dropdown-toggle.show:focus {
+  box-shadow: 0 0 0 0.25rem rgba(255, 255, 255, 0.5);
+}
+
+/* line 118, ../../../../../Users/admin/proyectos/2.cssavanzado/4.-sass/desafio1/assets/css/scss/mixins/_buttons.scss */
+.btn-outline-white:disabled, .btn-outline-white.disabled {
+  color: #fff;
   background-color: transparent;
 }
 
@@ -6033,6 +6203,30 @@ fieldset:disabled .btn {
   color: #101214;
 }
 
+/* line 53, ../../../../../Users/admin/proyectos/2.cssavanzado/4.-sass/desafio1/assets/css/scss/_alert.scss */
+.alert-pink {
+  color: #7c3c5c;
+  background-color: #f5e0eb;
+  border-color: #f1d1e1;
+}
+
+/* line 7, ../../../../../Users/admin/proyectos/2.cssavanzado/4.-sass/desafio1/assets/css/scss/mixins/_alert.scss */
+.alert-pink .alert-link {
+  color: #63304a;
+}
+
+/* line 53, ../../../../../Users/admin/proyectos/2.cssavanzado/4.-sass/desafio1/assets/css/scss/_alert.scss */
+.alert-white {
+  color: #666666;
+  background-color: white;
+  border-color: white;
+}
+
+/* line 7, ../../../../../Users/admin/proyectos/2.cssavanzado/4.-sass/desafio1/assets/css/scss/mixins/_alert.scss */
+.alert-white .alert-link {
+  color: #525252;
+}
+
 @keyframes progress-bar-stripes {
   0% {
     background-position-x: 1rem;
@@ -6532,6 +6726,44 @@ fieldset:disabled .btn {
   color: #fff;
   background-color: #141619;
   border-color: #141619;
+}
+
+/* line 5, ../../../../../Users/admin/proyectos/2.cssavanzado/4.-sass/desafio1/assets/css/scss/mixins/_list-group.scss */
+.list-group-item-pink {
+  color: #7c3c5c;
+  background-color: #f5e0eb;
+}
+
+/* line 10, ../../../../../Users/admin/proyectos/2.cssavanzado/4.-sass/desafio1/assets/css/scss/mixins/_list-group.scss */
+.list-group-item-pink.list-group-item-action:hover, .list-group-item-pink.list-group-item-action:focus {
+  color: #7c3c5c;
+  background-color: #ddcad4;
+}
+
+/* line 16, ../../../../../Users/admin/proyectos/2.cssavanzado/4.-sass/desafio1/assets/css/scss/mixins/_list-group.scss */
+.list-group-item-pink.list-group-item-action.active {
+  color: #fff;
+  background-color: #7c3c5c;
+  border-color: #7c3c5c;
+}
+
+/* line 5, ../../../../../Users/admin/proyectos/2.cssavanzado/4.-sass/desafio1/assets/css/scss/mixins/_list-group.scss */
+.list-group-item-white {
+  color: #666666;
+  background-color: white;
+}
+
+/* line 10, ../../../../../Users/admin/proyectos/2.cssavanzado/4.-sass/desafio1/assets/css/scss/mixins/_list-group.scss */
+.list-group-item-white.list-group-item-action:hover, .list-group-item-white.list-group-item-action:focus {
+  color: #666666;
+  background-color: #e6e6e6;
+}
+
+/* line 16, ../../../../../Users/admin/proyectos/2.cssavanzado/4.-sass/desafio1/assets/css/scss/mixins/_list-group.scss */
+.list-group-item-white.list-group-item-action.active {
+  color: #fff;
+  background-color: #666666;
+  border-color: #666666;
 }
 
 /* line 6, ../../../../../Users/admin/proyectos/2.cssavanzado/4.-sass/desafio1/assets/css/scss/_close.scss */
@@ -7845,6 +8077,26 @@ fieldset:disabled .btn {
   color: #1a1e21;
 }
 
+/* line 2, ../../../../../Users/admin/proyectos/2.cssavanzado/4.-sass/desafio1/assets/css/scss/helpers/_colored-links.scss */
+.link-pink {
+  color: #cf649a;
+}
+
+/* line 6, ../../../../../Users/admin/proyectos/2.cssavanzado/4.-sass/desafio1/assets/css/scss/helpers/_colored-links.scss */
+.link-pink:hover, .link-pink:focus {
+  color: #d983ae;
+}
+
+/* line 2, ../../../../../Users/admin/proyectos/2.cssavanzado/4.-sass/desafio1/assets/css/scss/helpers/_colored-links.scss */
+.link-white {
+  color: #fff;
+}
+
+/* line 6, ../../../../../Users/admin/proyectos/2.cssavanzado/4.-sass/desafio1/assets/css/scss/helpers/_colored-links.scss */
+.link-white:hover, .link-white:focus {
+  color: white;
+}
+
 /* line 3, ../../../../../Users/admin/proyectos/2.cssavanzado/4.-sass/desafio1/assets/css/scss/helpers/_ratio.scss */
 .ratio {
   position: relative;
@@ -8363,6 +8615,11 @@ fieldset:disabled .btn {
 /* line 64, ../../../../../Users/admin/proyectos/2.cssavanzado/4.-sass/desafio1/assets/css/scss/mixins/_utilities.scss */
 .border-dark {
   border-color: #212529 !important;
+}
+
+/* line 64, ../../../../../Users/admin/proyectos/2.cssavanzado/4.-sass/desafio1/assets/css/scss/mixins/_utilities.scss */
+.border-pink {
+  border-color: #cf649a !important;
 }
 
 /* line 64, ../../../../../Users/admin/proyectos/2.cssavanzado/4.-sass/desafio1/assets/css/scss/mixins/_utilities.scss */
@@ -9403,15 +9660,21 @@ fieldset:disabled .btn {
 }
 
 /* line 64, ../../../../../Users/admin/proyectos/2.cssavanzado/4.-sass/desafio1/assets/css/scss/mixins/_utilities.scss */
-.text-black {
+.text-pink {
   --bs-text-opacity: 1;
-  color: rgba(var(--bs-black-rgb), var(--bs-text-opacity)) !important;
+  color: rgba(var(--bs-pink-rgb), var(--bs-text-opacity)) !important;
 }
 
 /* line 64, ../../../../../Users/admin/proyectos/2.cssavanzado/4.-sass/desafio1/assets/css/scss/mixins/_utilities.scss */
 .text-white {
   --bs-text-opacity: 1;
   color: rgba(var(--bs-white-rgb), var(--bs-text-opacity)) !important;
+}
+
+/* line 64, ../../../../../Users/admin/proyectos/2.cssavanzado/4.-sass/desafio1/assets/css/scss/mixins/_utilities.scss */
+.text-black {
+  --bs-text-opacity: 1;
+  color: rgba(var(--bs-black-rgb), var(--bs-text-opacity)) !important;
 }
 
 /* line 64, ../../../../../Users/admin/proyectos/2.cssavanzado/4.-sass/desafio1/assets/css/scss/mixins/_utilities.scss */
@@ -9513,15 +9776,21 @@ fieldset:disabled .btn {
 }
 
 /* line 64, ../../../../../Users/admin/proyectos/2.cssavanzado/4.-sass/desafio1/assets/css/scss/mixins/_utilities.scss */
-.bg-black {
+.bg-pink {
   --bs-bg-opacity: 1;
-  background-color: rgba(var(--bs-black-rgb), var(--bs-bg-opacity)) !important;
+  background-color: rgba(var(--bs-pink-rgb), var(--bs-bg-opacity)) !important;
 }
 
 /* line 64, ../../../../../Users/admin/proyectos/2.cssavanzado/4.-sass/desafio1/assets/css/scss/mixins/_utilities.scss */
 .bg-white {
   --bs-bg-opacity: 1;
   background-color: rgba(var(--bs-white-rgb), var(--bs-bg-opacity)) !important;
+}
+
+/* line 64, ../../../../../Users/admin/proyectos/2.cssavanzado/4.-sass/desafio1/assets/css/scss/mixins/_utilities.scss */
+.bg-black {
+  --bs-bg-opacity: 1;
+  background-color: rgba(var(--bs-black-rgb), var(--bs-bg-opacity)) !important;
 }
 
 /* line 64, ../../../../../Users/admin/proyectos/2.cssavanzado/4.-sass/desafio1/assets/css/scss/mixins/_utilities.scss */

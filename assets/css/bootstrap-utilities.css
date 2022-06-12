@@ -91,6 +91,26 @@
   color: #1a1e21;
 }
 
+/* line 2, ../../../../../Users/admin/proyectos/2.cssavanzado/4.-sass/desafio1/assets/css/scss/helpers/_colored-links.scss */
+.link-pink {
+  color: #cf649a;
+}
+
+/* line 6, ../../../../../Users/admin/proyectos/2.cssavanzado/4.-sass/desafio1/assets/css/scss/helpers/_colored-links.scss */
+.link-pink:hover, .link-pink:focus {
+  color: #d983ae;
+}
+
+/* line 2, ../../../../../Users/admin/proyectos/2.cssavanzado/4.-sass/desafio1/assets/css/scss/helpers/_colored-links.scss */
+.link-white {
+  color: #fff;
+}
+
+/* line 6, ../../../../../Users/admin/proyectos/2.cssavanzado/4.-sass/desafio1/assets/css/scss/helpers/_colored-links.scss */
+.link-white:hover, .link-white:focus {
+  color: white;
+}
+
 /* line 3, ../../../../../Users/admin/proyectos/2.cssavanzado/4.-sass/desafio1/assets/css/scss/helpers/_ratio.scss */
 .ratio {
   position: relative;
@@ -609,6 +629,11 @@
 /* line 64, ../../../../../Users/admin/proyectos/2.cssavanzado/4.-sass/desafio1/assets/css/scss/mixins/_utilities.scss */
 .border-dark {
   border-color: #212529 !important;
+}
+
+/* line 64, ../../../../../Users/admin/proyectos/2.cssavanzado/4.-sass/desafio1/assets/css/scss/mixins/_utilities.scss */
+.border-pink {
+  border-color: #cf649a !important;
 }
 
 /* line 64, ../../../../../Users/admin/proyectos/2.cssavanzado/4.-sass/desafio1/assets/css/scss/mixins/_utilities.scss */
@@ -1649,15 +1674,21 @@
 }
 
 /* line 64, ../../../../../Users/admin/proyectos/2.cssavanzado/4.-sass/desafio1/assets/css/scss/mixins/_utilities.scss */
-.text-black {
+.text-pink {
   --bs-text-opacity: 1;
-  color: rgba(var(--bs-black-rgb), var(--bs-text-opacity)) !important;
+  color: rgba(var(--bs-pink-rgb), var(--bs-text-opacity)) !important;
 }
 
 /* line 64, ../../../../../Users/admin/proyectos/2.cssavanzado/4.-sass/desafio1/assets/css/scss/mixins/_utilities.scss */
 .text-white {
   --bs-text-opacity: 1;
   color: rgba(var(--bs-white-rgb), var(--bs-text-opacity)) !important;
+}
+
+/* line 64, ../../../../../Users/admin/proyectos/2.cssavanzado/4.-sass/desafio1/assets/css/scss/mixins/_utilities.scss */
+.text-black {
+  --bs-text-opacity: 1;
+  color: rgba(var(--bs-black-rgb), var(--bs-text-opacity)) !important;
 }
 
 /* line 64, ../../../../../Users/admin/proyectos/2.cssavanzado/4.-sass/desafio1/assets/css/scss/mixins/_utilities.scss */
@@ -1759,15 +1790,21 @@
 }
 
 /* line 64, ../../../../../Users/admin/proyectos/2.cssavanzado/4.-sass/desafio1/assets/css/scss/mixins/_utilities.scss */
-.bg-black {
+.bg-pink {
   --bs-bg-opacity: 1;
-  background-color: rgba(var(--bs-black-rgb), var(--bs-bg-opacity)) !important;
+  background-color: rgba(var(--bs-pink-rgb), var(--bs-bg-opacity)) !important;
 }
 
 /* line 64, ../../../../../Users/admin/proyectos/2.cssavanzado/4.-sass/desafio1/assets/css/scss/mixins/_utilities.scss */
 .bg-white {
   --bs-bg-opacity: 1;
   background-color: rgba(var(--bs-white-rgb), var(--bs-bg-opacity)) !important;
+}
+
+/* line 64, ../../../../../Users/admin/proyectos/2.cssavanzado/4.-sass/desafio1/assets/css/scss/mixins/_utilities.scss */
+.bg-black {
+  --bs-bg-opacity: 1;
+  background-color: rgba(var(--bs-black-rgb), var(--bs-bg-opacity)) !important;
 }
 
 /* line 64, ../../../../../Users/admin/proyectos/2.cssavanzado/4.-sass/desafio1/assets/css/scss/mixins/_utilities.scss */
