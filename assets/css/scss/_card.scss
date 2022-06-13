@@ -1,7 +1,9 @@
 //
 // Base styles
 //
-
+.fondo {
+  background-color: #222529;
+}
 .card {
   position: relative;
   display: flex;
@@ -9,7 +11,8 @@
   min-width: 0; // See https://github.com/twbs/bootstrap/pull/22740#issuecomment-305868106
   height: $card-height;
   word-wrap: break-word;
-  background-color: $card-bg;
+  @extend .fondo;
+  // background-color: $card-bg;
   background-clip: border-box;
   border: $card-border-width solid $card-border-color;
   @include border-radius($card-border-radius);

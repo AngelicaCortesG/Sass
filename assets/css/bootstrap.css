@@ -52,7 +52,7 @@
   --bs-black-rgb: 0, 0, 0;
   --bs-body-color-rgb: 33, 37, 41;
   --bs-body-bg-rgb: 255, 255, 255;
-  --bs-font-sans-serif: "Cedarville Cursive", cursive;
+  --bs-font-sans-serif: "Dancing Script", cursive;
   --bs-font-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
   --bs-gradient: linear-gradient(180deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0));
   --bs-body-font-family: var(--bs-font-sans-serif);
@@ -5562,79 +5562,83 @@ fieldset:disabled .btn {
   color: #fff;
 }
 
-/* line 5, ../../../../../Users/admin/proyectos/2.cssavanzado/4.-sass/desafio1/assets/css/scss/_card.scss */
+/* line 4, ../../../../../Users/admin/proyectos/2.cssavanzado/4.-sass/desafio1/assets/css/scss/_card.scss */
+.fondo, .card {
+  background-color: #222529;
+}
+
+/* line 7, ../../../../../Users/admin/proyectos/2.cssavanzado/4.-sass/desafio1/assets/css/scss/_card.scss */
 .card {
   position: relative;
   display: flex;
   flex-direction: column;
   min-width: 0;
   word-wrap: break-word;
-  background-color: #fff;
   background-clip: border-box;
   border: 1px solid rgba(0, 0, 0, 0.125);
   border-radius: 0.25rem;
 }
 
-/* line 18, ../../../../../Users/admin/proyectos/2.cssavanzado/4.-sass/desafio1/assets/css/scss/_card.scss */
+/* line 21, ../../../../../Users/admin/proyectos/2.cssavanzado/4.-sass/desafio1/assets/css/scss/_card.scss */
 .card > hr {
   margin-right: 0;
   margin-left: 0;
 }
 
-/* line 23, ../../../../../Users/admin/proyectos/2.cssavanzado/4.-sass/desafio1/assets/css/scss/_card.scss */
+/* line 26, ../../../../../Users/admin/proyectos/2.cssavanzado/4.-sass/desafio1/assets/css/scss/_card.scss */
 .card > .list-group {
   border-top: inherit;
   border-bottom: inherit;
 }
 
-/* line 27, ../../../../../Users/admin/proyectos/2.cssavanzado/4.-sass/desafio1/assets/css/scss/_card.scss */
+/* line 30, ../../../../../Users/admin/proyectos/2.cssavanzado/4.-sass/desafio1/assets/css/scss/_card.scss */
 .card > .list-group:first-child {
   border-top-width: 0;
   border-top-left-radius: calc(0.25rem - 1px);
   border-top-right-radius: calc(0.25rem - 1px);
 }
 
-/* line 32, ../../../../../Users/admin/proyectos/2.cssavanzado/4.-sass/desafio1/assets/css/scss/_card.scss */
+/* line 35, ../../../../../Users/admin/proyectos/2.cssavanzado/4.-sass/desafio1/assets/css/scss/_card.scss */
 .card > .list-group:last-child {
   border-bottom-width: 0;
   border-bottom-right-radius: calc(0.25rem - 1px);
   border-bottom-left-radius: calc(0.25rem - 1px);
 }
 
-/* line 40, ../../../../../Users/admin/proyectos/2.cssavanzado/4.-sass/desafio1/assets/css/scss/_card.scss */
+/* line 43, ../../../../../Users/admin/proyectos/2.cssavanzado/4.-sass/desafio1/assets/css/scss/_card.scss */
 .card > .card-header + .list-group,
 .card > .list-group + .card-footer {
   border-top: 0;
 }
 
-/* line 46, ../../../../../Users/admin/proyectos/2.cssavanzado/4.-sass/desafio1/assets/css/scss/_card.scss */
+/* line 49, ../../../../../Users/admin/proyectos/2.cssavanzado/4.-sass/desafio1/assets/css/scss/_card.scss */
 .card-body {
   flex: 1 1 auto;
   padding: 1rem 1rem;
 }
 
-/* line 54, ../../../../../Users/admin/proyectos/2.cssavanzado/4.-sass/desafio1/assets/css/scss/_card.scss */
+/* line 57, ../../../../../Users/admin/proyectos/2.cssavanzado/4.-sass/desafio1/assets/css/scss/_card.scss */
 .card-title {
   margin-bottom: 0.5rem;
 }
 
-/* line 58, ../../../../../Users/admin/proyectos/2.cssavanzado/4.-sass/desafio1/assets/css/scss/_card.scss */
+/* line 61, ../../../../../Users/admin/proyectos/2.cssavanzado/4.-sass/desafio1/assets/css/scss/_card.scss */
 .card-subtitle {
   margin-top: -0.25rem;
   margin-bottom: 0;
 }
 
-/* line 63, ../../../../../Users/admin/proyectos/2.cssavanzado/4.-sass/desafio1/assets/css/scss/_card.scss */
+/* line 66, ../../../../../Users/admin/proyectos/2.cssavanzado/4.-sass/desafio1/assets/css/scss/_card.scss */
 .card-text:last-child {
   margin-bottom: 0;
 }
 
-/* line 72, ../../../../../Users/admin/proyectos/2.cssavanzado/4.-sass/desafio1/assets/css/scss/_card.scss */
+/* line 75, ../../../../../Users/admin/proyectos/2.cssavanzado/4.-sass/desafio1/assets/css/scss/_card.scss */
 .card-link + .card-link {
   margin-left: 1rem;
 }
 
-/* line 81, ../../../../../Users/admin/proyectos/2.cssavanzado/4.-sass/desafio1/assets/css/scss/_card.scss */
+/* line 84, ../../../../../Users/admin/proyectos/2.cssavanzado/4.-sass/desafio1/assets/css/scss/_card.scss */
 .card-header {
   padding: 0.5rem 1rem;
   margin-bottom: 0;
@@ -5642,24 +5646,24 @@ fieldset:disabled .btn {
   border-bottom: 1px solid rgba(0, 0, 0, 0.125);
 }
 
-/* line 88, ../../../../../Users/admin/proyectos/2.cssavanzado/4.-sass/desafio1/assets/css/scss/_card.scss */
+/* line 91, ../../../../../Users/admin/proyectos/2.cssavanzado/4.-sass/desafio1/assets/css/scss/_card.scss */
 .card-header:first-child {
   border-radius: calc(0.25rem - 1px) calc(0.25rem - 1px) 0 0;
 }
 
-/* line 93, ../../../../../Users/admin/proyectos/2.cssavanzado/4.-sass/desafio1/assets/css/scss/_card.scss */
+/* line 96, ../../../../../Users/admin/proyectos/2.cssavanzado/4.-sass/desafio1/assets/css/scss/_card.scss */
 .card-footer {
   padding: 0.5rem 1rem;
   background-color: rgba(0, 0, 0, 0.03);
   border-top: 1px solid rgba(0, 0, 0, 0.125);
 }
 
-/* line 99, ../../../../../Users/admin/proyectos/2.cssavanzado/4.-sass/desafio1/assets/css/scss/_card.scss */
+/* line 102, ../../../../../Users/admin/proyectos/2.cssavanzado/4.-sass/desafio1/assets/css/scss/_card.scss */
 .card-footer:last-child {
   border-radius: 0 0 calc(0.25rem - 1px) calc(0.25rem - 1px);
 }
 
-/* line 109, ../../../../../Users/admin/proyectos/2.cssavanzado/4.-sass/desafio1/assets/css/scss/_card.scss */
+/* line 112, ../../../../../Users/admin/proyectos/2.cssavanzado/4.-sass/desafio1/assets/css/scss/_card.scss */
 .card-header-tabs {
   margin-right: -0.5rem;
   margin-bottom: -0.5rem;
@@ -5667,13 +5671,13 @@ fieldset:disabled .btn {
   border-bottom: 0;
 }
 
-/* line 123, ../../../../../Users/admin/proyectos/2.cssavanzado/4.-sass/desafio1/assets/css/scss/_card.scss */
+/* line 126, ../../../../../Users/admin/proyectos/2.cssavanzado/4.-sass/desafio1/assets/css/scss/_card.scss */
 .card-header-pills {
   margin-right: -0.5rem;
   margin-left: -0.5rem;
 }
 
-/* line 129, ../../../../../Users/admin/proyectos/2.cssavanzado/4.-sass/desafio1/assets/css/scss/_card.scss */
+/* line 132, ../../../../../Users/admin/proyectos/2.cssavanzado/4.-sass/desafio1/assets/css/scss/_card.scss */
 .card-img-overlay {
   position: absolute;
   top: 0;
@@ -5684,74 +5688,74 @@ fieldset:disabled .btn {
   border-radius: calc(0.25rem - 1px);
 }
 
-/* line 139, ../../../../../Users/admin/proyectos/2.cssavanzado/4.-sass/desafio1/assets/css/scss/_card.scss */
+/* line 142, ../../../../../Users/admin/proyectos/2.cssavanzado/4.-sass/desafio1/assets/css/scss/_card.scss */
 .card-img,
 .card-img-top,
 .card-img-bottom {
   width: 100%;
 }
 
-/* line 145, ../../../../../Users/admin/proyectos/2.cssavanzado/4.-sass/desafio1/assets/css/scss/_card.scss */
+/* line 148, ../../../../../Users/admin/proyectos/2.cssavanzado/4.-sass/desafio1/assets/css/scss/_card.scss */
 .card-img,
 .card-img-top {
   border-top-left-radius: calc(0.25rem - 1px);
   border-top-right-radius: calc(0.25rem - 1px);
 }
 
-/* line 150, ../../../../../Users/admin/proyectos/2.cssavanzado/4.-sass/desafio1/assets/css/scss/_card.scss */
+/* line 153, ../../../../../Users/admin/proyectos/2.cssavanzado/4.-sass/desafio1/assets/css/scss/_card.scss */
 .card-img,
 .card-img-bottom {
   border-bottom-right-radius: calc(0.25rem - 1px);
   border-bottom-left-radius: calc(0.25rem - 1px);
 }
 
-/* line 163, ../../../../../Users/admin/proyectos/2.cssavanzado/4.-sass/desafio1/assets/css/scss/_card.scss */
+/* line 166, ../../../../../Users/admin/proyectos/2.cssavanzado/4.-sass/desafio1/assets/css/scss/_card.scss */
 .card-group > .card {
   margin-bottom: 0.75rem;
 }
 
 @media (min-width: 576px) {
-  /* line 160, ../../../../../Users/admin/proyectos/2.cssavanzado/4.-sass/desafio1/assets/css/scss/_card.scss */
+  /* line 163, ../../../../../Users/admin/proyectos/2.cssavanzado/4.-sass/desafio1/assets/css/scss/_card.scss */
   .card-group {
     display: flex;
     flex-flow: row wrap;
   }
-  /* line 172, ../../../../../Users/admin/proyectos/2.cssavanzado/4.-sass/desafio1/assets/css/scss/_card.scss */
+  /* line 175, ../../../../../Users/admin/proyectos/2.cssavanzado/4.-sass/desafio1/assets/css/scss/_card.scss */
   .card-group > .card {
     flex: 1 0 0%;
     margin-bottom: 0;
   }
-  /* line 177, ../../../../../Users/admin/proyectos/2.cssavanzado/4.-sass/desafio1/assets/css/scss/_card.scss */
+  /* line 180, ../../../../../Users/admin/proyectos/2.cssavanzado/4.-sass/desafio1/assets/css/scss/_card.scss */
   .card-group > .card + .card {
     margin-left: 0;
     border-left: 0;
   }
-  /* line 184, ../../../../../Users/admin/proyectos/2.cssavanzado/4.-sass/desafio1/assets/css/scss/_card.scss */
+  /* line 187, ../../../../../Users/admin/proyectos/2.cssavanzado/4.-sass/desafio1/assets/css/scss/_card.scss */
   .card-group > .card:not(:last-child) {
     border-top-right-radius: 0;
     border-bottom-right-radius: 0;
   }
-  /* line 187, ../../../../../Users/admin/proyectos/2.cssavanzado/4.-sass/desafio1/assets/css/scss/_card.scss */
+  /* line 190, ../../../../../Users/admin/proyectos/2.cssavanzado/4.-sass/desafio1/assets/css/scss/_card.scss */
   .card-group > .card:not(:last-child) .card-img-top,
   .card-group > .card:not(:last-child) .card-header {
     border-top-right-radius: 0;
   }
-  /* line 192, ../../../../../Users/admin/proyectos/2.cssavanzado/4.-sass/desafio1/assets/css/scss/_card.scss */
+  /* line 195, ../../../../../Users/admin/proyectos/2.cssavanzado/4.-sass/desafio1/assets/css/scss/_card.scss */
   .card-group > .card:not(:last-child) .card-img-bottom,
   .card-group > .card:not(:last-child) .card-footer {
     border-bottom-right-radius: 0;
   }
-  /* line 199, ../../../../../Users/admin/proyectos/2.cssavanzado/4.-sass/desafio1/assets/css/scss/_card.scss */
+  /* line 202, ../../../../../Users/admin/proyectos/2.cssavanzado/4.-sass/desafio1/assets/css/scss/_card.scss */
   .card-group > .card:not(:first-child) {
     border-top-left-radius: 0;
     border-bottom-left-radius: 0;
   }
-  /* line 202, ../../../../../Users/admin/proyectos/2.cssavanzado/4.-sass/desafio1/assets/css/scss/_card.scss */
+  /* line 205, ../../../../../Users/admin/proyectos/2.cssavanzado/4.-sass/desafio1/assets/css/scss/_card.scss */
   .card-group > .card:not(:first-child) .card-img-top,
   .card-group > .card:not(:first-child) .card-header {
     border-top-left-radius: 0;
   }
-  /* line 207, ../../../../../Users/admin/proyectos/2.cssavanzado/4.-sass/desafio1/assets/css/scss/_card.scss */
+  /* line 210, ../../../../../Users/admin/proyectos/2.cssavanzado/4.-sass/desafio1/assets/css/scss/_card.scss */
   .card-group > .card:not(:first-child) .card-img-bottom,
   .card-group > .card:not(:first-child) .card-footer {
     border-bottom-left-radius: 0;
